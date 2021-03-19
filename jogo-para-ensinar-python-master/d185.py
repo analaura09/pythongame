@@ -1,0 +1,16 @@
+notas=[]
+nome = input('Atleta: ')
+notas.append( int(input('Nota: ')))
+notas.append( int(input('Nota: ')))
+notas.append( int(input('Nota: ')))
+notas.append( int(input('Nota: ')))
+notas.append( int(input('Nota: ')))
+notas.append( int(input('Nota: ')))
+notas.append( int(input('Nota: ')))
+notas.sort()
+media= (notas[0]+notas[1]+notas[2]+notas[3]+notas[4]+notas[5]+notas[6])/7
+print('RESULTADO FINAL: ')
+print(f'Atleta: {nome}')
+print(f'Melhor nota: {notas[7]}')
+print(f'Pior nota: {notas[0]}')
+print(f'Media: { media}')
